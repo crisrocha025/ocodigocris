@@ -7,7 +7,7 @@
 
   /* Fontes */
   --cursive-font: 'Rochester', cursive;
-  --main-font:sans-serif;
+  --main-font: 'Montserrat', sans-serif;
 
   /* Tamanhos */
   --main-sizeFont:16px;
@@ -24,10 +24,15 @@
 body{
 	font-family: var(--main-font);
 	font-size:var(--main-sizeFont);
+	padding:0;
+	margin:0;
 }
 h1{
 	font-size:3em;
 	font-family:var(--cursive-font);
+	margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    line-height:0;
 }
 h2{
 	font-size:2em;
