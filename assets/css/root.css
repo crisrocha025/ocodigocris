@@ -1,0 +1,43 @@
+:root {
+	/* Cores */
+  --primary-color: #ef0a86;
+  --secondary-color: #32efd3;
+  --text-color:#323131;
+  --light-pink-color:#f9bbcb;
+
+  /* Fontes */
+  --cursive-font: 'Rochester', cursive;
+  --main-font:sans-serif;
+
+  /* Tamanhos */
+  --main-sizeFont:16px;
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	outline:none;
+	border:none;
+	text-decoration:none;
+	list-style:none;
+}
+body{
+	font-family: var(--main-font);
+	font-size:var(--main-sizeFont);
+}
+h1{
+	font-size:3em;
+	font-family:var(--cursive-font);
+}
+h2{
+	font-size:2em;
+}
+h3{
+	font-size:1.5em;
+}
+.main_container{
+	width:100vw;
+	padding: 0 5%;
+}
+
+
