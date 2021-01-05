@@ -26,9 +26,11 @@
 	}
 	.header1{
 		width:100px;
+		background:transparent;
 	}
 	.header2{
 		width:calc(100% - 250px);
+		background:transparent;
 	}
 	.header2 .menu ul{
 		display:flex;
