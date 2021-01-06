@@ -120,16 +120,7 @@
 		align-items:center;
 	}
 	/* Templates */
-	.blogger_wordpress{
-		display:flex;
-	}
-	.temas_wordpress,
-	.templates_blogger{
-		width:50%;
-	}
-	.content_templates h3{
-		font-size:2em;
-	}
+	
 }
 @media (min-width: 1200px){
 	.header2 .contact_me{
