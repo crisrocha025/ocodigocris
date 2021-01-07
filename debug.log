@@ -8,3 +8,4 @@
 [0106/113406.221:ERROR:exception_snapshot_win.cc(99)] thread ID 5596 not found in process
 [0106/113406.221:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso negado} Um processo pediu acesso a um objeto, mas não lhe foram concedidos permissões de acesso. (0xc0000022)
 [0106/113406.221:ERROR:exception_snapshot_win.cc(99)] thread ID 6004 not found in process
+[0107/171954.370:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não conseguiu localizar o caminho especificado. (0x3)
