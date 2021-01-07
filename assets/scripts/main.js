@@ -35,6 +35,9 @@ link_active.forEach(item => {
 		activeClass.className = activeClass.className.replace("active","")
 		item.className += "active"
 
+		menu_toggle_templates.classList.toggle('menu_toggle_templates_active')
+		menu_templates.classList.toggle('menu_templates_active')
+
 		template_item.forEach(el => {
 			el.classList.remove('show_item')
 		})

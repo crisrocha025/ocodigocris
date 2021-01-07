@@ -151,7 +151,43 @@
 		width:50%;
 		height:100%;
 	}
+	/* conhecimentos */
+	.conhecimentos{
+		height:500px;
+		flex-direction:row;	}
+	.conhecimentos .conhecimento_img{
+		width:50%;
+		height:100%;
+	}
+	.conhecimentos .conhecimentos_content{
+		width:50%;
+		height:100%;
+	}
 
+	.conhecimentos .conhecimento_img{
+		width:40%;
+		height:100%;
+		order: 2;
+		position: relative;
+		flex-direction: row;
+	}
+	.conhecimentos .conhecimento_img img{
+		height: 90%;
+		width: auto;
+		order: 2;
+	}
+	.conhecimentos .conhecimento_img  p{
+		flex-direction: column;
+		height:70px;
+		margin-top:0;
+		order: 1;
+		position: relative;
+		right: -10px;
+	}
+	.conhecimentos .conhecimento_img span{
+		margin:2px 0 2px 0;
+	}
+/* templates */
 .menu_toggle_templates{
 	display: none;
 }
