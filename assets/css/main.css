@@ -410,7 +410,7 @@
 	width:25px;
 	height:25px;
 	margin:5px;
-	fill:#424242;
+	fill:var(--text-color);
 }
 .pontos{
 	display:block;
@@ -1006,7 +1006,7 @@
 	width:25px;
 	height:25px;
 	border:2px solid var(--secondary-color);
-	background:#fff;
+	background:var(--bg-color);
 	transform:rotate(45deg);
 	position:relative;
 	margin-left: -15px;
@@ -1019,7 +1019,7 @@
 	width:15px;
 	height:15px;
 	border:2px solid var(--text-color);
-	background:#fff;
+	background:var(--bg-color);
 	position:relative;
 	margin-left: 10px;
 	top:-25px;
@@ -1034,9 +1034,31 @@
 	font-weight: 400;
 	font-size: 1em;
 	text-align: center;
-	border-bottom: 1px solid #fff;
+	
 }
-
+.separator{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 25px;
+	background: var(--bg-color);
+	left: -5%;
+}
+.separator span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: 5px;
+	background: var(--primary-color);
+}
+.separator span:first-child{
+	background: var(--text-color);
+}
+.separator span:last-child{
+	background: var(--secondary-color);
+}
 .portfolio{
 	width: 100%;
 	height: auto;
