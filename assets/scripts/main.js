@@ -21,7 +21,7 @@ menu_toggle_templates.addEventListener('click',() => {
 	menu_templates.classList.toggle('menu_templates_active')
 })
  
-let link_active = document.querySelectorAll('.menu_templates ul li')
+let link_active = document.querySelectorAll('.menu_list_template  li')
 const templates_container = document.querySelector('.templates_content')
 const template_item = document.querySelectorAll('.templates_content #item')
 
